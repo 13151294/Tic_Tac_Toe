@@ -1,0 +1,104 @@
+/*Background of game*/
+body.gradient {
+  height: 100%;
+  margin: 0;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: whitesmoke;
+}
+#State {
+  text-align: center;
+  margin: 2%;
+  font-size: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 0px 0px 10px rgb(27, 27, 27);
+}
+#player {
+  margin: auto;
+  margin-top: 3%;
+  float: center;
+  height: 50px;
+  width: 500px;
+}
+div.Block {
+  margin: auto;
+  margin-bottom: 1%;
+  float: center;
+  width: 240px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  box-shadow: 0px 0px 20px rgb(39, 39, 39);
+  text-shadow: 0px 0px 10px rgb(27, 27, 27);
+}
+#P1 {
+  float: left;
+  background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+#P2 {
+  float: right;
+  background: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+div.board {
+  margin: auto;
+  margin-top: 1%;
+  float: center;
+  height: 500px;
+  width: 500px;
+  border-radius: 15%;
+  background: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+  box-shadow: 0px 0px 100px rgb(31, 31, 31);
+}
+div.board button.cell {
+  margin-left: 18.40px;
+  margin-top: 18.50px;
+  height: 28%;
+  width: 28%;
+  background-color: inherit;
+  border: none;
+  border-radius: 30%;
+  background: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+div.board button.cell:hover {
+  background: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+}
+div.Input {
+  margin: auto;
+  margin-top: 0%;
+  float: center;
+  height: 50px;
+  width: 500px;
+}
+button.Button {
+  margin: auto;
+  margin-top: 4%;
+  float: center;
+  width: 240px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(315deg, #5c3f5f 0%, #0d324d 74%);
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  box-shadow: 0px 0px 20px rgb(31, 31, 31);
+}
+button.Button:hover {
+  background: linear-gradient(315deg, #7f5e83 0%, #1d5279 74%);
+}
+#Reset {
+  float: left;
+}
+#Mode {
+  float: right;
+}

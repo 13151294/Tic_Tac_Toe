@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Script.js"></script>
+  </head>
+  <body class="gradient">
+    <h1 id="State">Tic Tac Toe</h1>
+    <div id="player">
+      <div class="Block" id="P1">Player 1</div>
+      <div class="Block" id="P2">Player 2</div>
+    </div>
+    <div class="board">
+        <button onclick="Click(0,0)" class="cell" id="cell_0"></button>
+        <button onclick="Click(0,1)" class="cell" id="cell_1"></button>
+        <button onclick="Click(0,2)" class="cell" id="cell_2"></button>
+        <button onclick="Click(1,0)" class="cell" id="cell_3"></button>
+        <button onclick="Click(1,1)" class="cell" id="cell_4"></button>
+        <button onclick="Click(1,2)" class="cell" id="cell_5"></button>
+        <button onclick="Click(2,0)" class="cell" id="cell_6"></button>
+        <button onclick="Click(2,1)" class="cell" id="cell_7"></button>
+        <button onclick="Click(2,2)" class="cell" id="cell_8"></button>
+    </div>
+    <div class="Input">
+      <button onclick="Reset()" class="Button" id="Reset">Reset</button>
+      <button onclick="ChangeMode('AI')" class="Button" id="Mode">Player</button>
+    </div>
+  </body>
+</html>
