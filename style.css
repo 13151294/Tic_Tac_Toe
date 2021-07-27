@@ -83,10 +83,10 @@ button.Button {
   margin: auto;
   margin-top: 4%;
   float: center;
-  width: 240px;
-  height: 50px;
+  width: 500px;
+  height: 100px;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   background: linear-gradient(315deg, #5c3f5f 0%, #0d324d 74%);
   text-align: center;
   font-size: 40px;
@@ -98,9 +98,4 @@ button.Button {
 button.Button:hover {
   background: linear-gradient(315deg, #7f5e83 0%, #1d5279 74%);
 }
-#Reset {
-  float: left;
-}
-#Mode {
-  float: right;
-}
+
